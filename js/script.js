@@ -30,9 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
         poster = document.querySelector('.promo__bg'),
         genre = poster.querySelector('.promo__genre'),
         movieList = document.querySelector('.promo__interactive-list'),
-        addForm = document.querySelector('form.add'),
-        add     
-      adv.forEach(item => { 
+        addForm = document.querySelector('form.add');
+        
+
+      adv.forEach (item => { 
          item.remove();
      });   
 
